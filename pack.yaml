@@ -16,4 +16,16 @@ actions:
         required: true
         description: Wait for Seconds
         order: 10
+ vader:
+    title: Vader wait
+    description: vader wait
+    path: src.xwing:Vader
+    icon: fab fa-empire
+    parameters:
+      wait:
+        type: integer
+        title: Wait for Seconds
+        required: true
+        description: Wait for Seconds
+        order: 10
   
