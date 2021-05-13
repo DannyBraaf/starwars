@@ -65,8 +65,3 @@ class Vader:
 
         time.sleep(self.wait)
         return 
-    
-    
-    
- 
-
