@@ -8,7 +8,7 @@ actions:
     title: Zendesk Update Ticket
     description: Update Zendesk Ticket
     path: src.xwing:Execute
-    icon: fas fa-starfighter
+    icon: fab fa-rebel
     parameters:
       wait:
         type: integer
