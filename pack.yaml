@@ -16,10 +16,10 @@ actions:
         required: true
         description: Wait for Seconds
         order: 10
- Boba Fett:
-    title: Boba Fett wait
-    description:  Boba Fett wait
-    path: src.xwing:Boba
+ Empire:
+    title: Empire wait
+    description: Empire wait
+    path: src.xwing:Empire
     icon: fab fa-empire
     parameters:
       wait:
