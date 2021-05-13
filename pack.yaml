@@ -19,7 +19,7 @@ actions:
  Boba Fett:
     title: Boba Fett wait
     description:  Boba Fett wait
-    path: src.xwing:Vader
+    path: src.xwing:Boba
     icon: fab fa-empire
     parameters:
       wait:
