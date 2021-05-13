@@ -16,23 +16,11 @@ actions:
         required: true
         description: Wait for Seconds
         order: 10
- vader:
-    title: Vader wait
-    description: Vader wait
+ Boba Fett:
+    title: Boba Fett wait
+    description:  Boba Fett wait
     path: src.xwing:Vader
     icon: fab fa-empire
-    parameters:
-      wait:
-        type: integer
-        title: Wait for Seconds
-        required: true
-        description: Wait for Seconds
-        order: 10
- Falcon:
-    title: Falcon wait
-    description: Falcon wait
-    path: src.xwing:falcon
-    icon: fas fa-starship-freighter
     parameters:
       wait:
         type: integer
