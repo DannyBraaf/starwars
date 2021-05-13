@@ -1,0 +1,12 @@
+---
+name: Star wars wait package
+title: Star wars wait package
+description: |
+  Zendesk-Integration
+actions:
+ xwing:
+    title: Zendesk Update Ticket
+    description: Update Zendesk Ticket
+    path: src.xwing:Execute
+    icon: fas fa-starfighter
+  
