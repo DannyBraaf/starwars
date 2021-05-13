@@ -7,7 +7,7 @@ actions:
  xwing:
     title: Xwing wait
     description: Xwing wait
-    path: src.xwing:Execute
+    path: src.xwing:Xwing
     icon: fab fa-rebel
     parameters:
       wait:
@@ -18,7 +18,7 @@ actions:
         order: 10
  vader:
     title: Vader wait
-    description: vader wait
+    description: Vader wait
     path: src.xwing:Vader
     icon: fab fa-empire
     parameters:
@@ -28,4 +28,15 @@ actions:
         required: true
         description: Wait for Seconds
         order: 10
-  
+ Falcon:
+    title: Falcon wait
+    description: Falcon wait
+    path: src.xwing:falcon
+    icon: fas fa-starship-freighter
+    parameters:
+      wait:
+        type: integer
+        title: Wait for Seconds
+        required: true
+        description: Wait for Seconds
+        order: 10
