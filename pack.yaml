@@ -9,4 +9,11 @@ actions:
     description: Update Zendesk Ticket
     path: src.xwing:Execute
     icon: fas fa-starfighter
+    parameters:
+      wait:
+        type: integer
+        title: Wait for Seconds
+        required: true
+        description: Wait for Seconds
+        order: 10
   
