@@ -1,12 +1,12 @@
 ---
-name: starwarswait
-title: Star wars wait package
+name: fun wait package
+title: Fun wait package
 description: |
-  Zendesk-Integration
+  fun wait package
 actions:
  xwing:
-    title: Zendesk Update Ticket
-    description: Update Zendesk Ticket
+    title: Xwing wait
+    description: Xwing wait
     path: src.xwing:Execute
     icon: fab fa-rebel
     parameters:
